@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+// Only accept 100won, 500won, and 1000won
 module vending(
     input             clock,
     input             n_reset,
