@@ -22,7 +22,7 @@ parameter SLAVE_IDR = 8'h00;
 reg [1:0] present_state, next_state;
 parameter IDLE  = 2'd0;
 parameter READY = 2'd1;
-parameter SEND = 2'd2;
+parameter SEND  = 2'd2;
 parameter DONE  = 2'd3;
 
 // State flag
