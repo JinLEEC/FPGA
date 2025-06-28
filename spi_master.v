@@ -42,10 +42,10 @@ always@(negedge n_reset, posedge clock)
 always@(*) begin
     next_state = present_state;
     case(present_state)
-        IDLE  : next_state = (idle_flag & (start_wr_posedge | start_re_posedge))         ? READY : IDLE;
-        READY : next_state = (ready_flag & (ready_cnt == freq))                          ? SEND : READY;
-        SEND  : next_state  = (send_flag & (sclk_index == 6'd48) & (sclk_cnt == 10'd10)) ? DONE : SEND;
-        DONE  : next_state = (done_flag & (done_cnt == 4'd15))                           ? IDLE : DONE;
+        IDLE  : next_state = (idle_flag & (start_wr_posedge | start_re_posedge))        ? READY : IDLE;
+        READY : next_state = (ready_flag & (ready_cnt == freq))                         ? SEND : READY;
+        SEND  : next_state = (send_flag & (sclk_index == 6'd48) & (sclk_cnt == 10'd10)) ? DONE : SEND;
+        DONE  : next_state = (done_flag & (done_cnt == 4'd15))                          ? IDLE : DONE;
     endcase
 end
 
