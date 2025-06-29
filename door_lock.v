@@ -41,7 +41,7 @@ always@(*) begin
         START    : next_state = (start_flag & (start_cnt == 4'd5))   ? PASSWORD : START;
         PASSWORD : next_state = (password_flag & (correct == 1'b1))  ? OPEN : WRONG;
         WRONG    : next_state = (chance == 2'd2)                     ? LOCK : PASSWORD;
-        LOCK     : next_state = (lock_flag & (lock_cnt == 12'd29))   ? IDLE : LOCK;
+        LOCK     : next_state = (lock_flag & (lock_cnt == 12'd29)) ? IDLE : LOCK;
         OPEN     : next_state = (open_flag & (open_cnt == 11'd19))   ? IDLE : OPEN;
     endcase
 end
