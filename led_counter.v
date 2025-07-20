@@ -9,7 +9,7 @@ always@(negedge n_reset, posedge clock)
     if(!n_reset)
         cnt <= 0;
     else
-        cnt <= (cnt == 30'd100000000) ? 26'd0 : cnt+1;
+        cnt <= (cnt == 30'd100000000) ? 30'd0 : cnt+1;
 
 // led
 always@(negedge n_reset, posedge clock)
