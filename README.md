@@ -20,10 +20,4 @@ The 4-bit counter counts at different speeds depending on the input switches.
 ![](images/switch_schematic.png)
 
 ## Result
-![](images/result1.png)
-
-![](images/result2.png)
-
-![](images/result3.png)
-
-![](images/result4.png)
+![](images/result.png)
