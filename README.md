@@ -16,10 +16,14 @@ The 4-bit counter counts at different speeds depending on the input switches.
 
 ## Circuit Schematic
 !(./images/led_schematic.png)
+
 !(.\images/switch_schematic.png)
 
 ## Result
 (./images/result1.png)
+
 (./images/result2.png)
+
 (./images/result3.png)
+
 (./images/result4.png)
