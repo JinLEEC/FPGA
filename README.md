@@ -2,7 +2,7 @@
 
 ## Proejct Description
 This project implements an LED counter on an FPGA using Xilinx clock IP to generate different clocks.
-The 4-bit counter counts with different speeds depending on the input switches.
+The 4-bit counter counts at different speeds depending on the input switches.
 
 ## Features
 - Generate four different clocks
