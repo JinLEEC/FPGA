@@ -1,8 +1,8 @@
 # FPGA Projects 
 
-This repositoryy contains a collection of my FPGA projects using Xilinx Vivado. 
+This repository contains a collection of my FPGA projects using Xilinx Vivado. 
 
-Each project demonstrates fundamental or advanced digital design concepts such as counters, memory access, and Xilinx IP.
+Each project demonstrates fundamental or advanced digital design concepts such as counters, memory access, and using Xilinx IP.
 
 ## Development Environment
 - Tool: Xilinx Vivado
