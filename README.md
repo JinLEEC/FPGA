@@ -11,6 +11,6 @@ Each project demonstrates fundamental or advanced digital design concepts such a
 
 
 ## 🛠Development Environment
-- Tool: Xilinx Vivado, GTKWave, VS code
+- Tools: Xilinx Vivado, GTKWave, VS Code
 - Language: Verilog HDL
-- Board: Arty A7-100T
+- Target Board: Arty A7-100T
