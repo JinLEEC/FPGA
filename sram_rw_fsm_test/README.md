@@ -6,5 +6,24 @@ This project implements an SRAM read/write controller on an FPGA using Xilinx Me
  
 The design was verified on-board through debugging 7 LEDs.
 
+## Features
+
+- FSM-Based Sequential Logic
+  - State transition triggered by button input.
+ 
+- Use Xilinx Memory IP
+ - Write and Read data using internal Memory IP ('mem_gen').
+
+- Asynchronous Reset
+
+- Real-time Debugging through LEDs
+ - Data read from SRAM is displayed on board LEDs.
+
+
+
+
+
+
+
 
 
