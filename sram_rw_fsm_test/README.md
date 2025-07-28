@@ -6,7 +6,7 @@ This project implements an SRAM read/write controller on an FPGA using Xilinx Me
  
 The design was verified on-board through debugging 7 LEDs.
 
-##✅Features
+## ✅Features
 
 - FSM-Based Sequential Logic
   - State transitions triggered by button input.
@@ -20,7 +20,7 @@ The design was verified on-board through debugging 7 LEDs.
   - Data read from SRAM is directly displayed on-board LEDs.
  
 
-##📦Requirements
+## 📦Requirements
 - Xilinx Vivado 2022.2 or later
 - Xilinx Memory Generator IP
 - Digilent Arty A7 FPGA board (or equivalent)
