@@ -12,12 +12,12 @@ The design was verified on-board through debugging 7 LEDs.
   - State transitions triggered by button input.
  
 - Uses Xilinx Memory IP
- - Write and Read data using internal Memory IP ('mem_gen').
+  - Write and Read data using internal Memory IP ('mem_gen').
 
 - Asynchronous Reset
 
 - Real-time Debugging via LEDs
- - Data read from SRAM is directly displayed on-board LEDs.
+  - Data read from SRAM is directly displayed on-board LEDs.
 
 
 
