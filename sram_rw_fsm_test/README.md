@@ -18,7 +18,12 @@ The design was verified on-board through debugging 7 LEDs.
 
 - Real-time Debugging via LEDs
   - Data read from SRAM is directly displayed on-board LEDs.
+ 
 
+## Requirements
+- Xilinx Vivado 2022.2 or later
+- Xilinx Memory Generator IP
+- Digilent Arty A7 FPGA board (or equivalent)
 
 
 
