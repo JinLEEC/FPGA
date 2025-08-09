@@ -7,7 +7,6 @@ Each project demonstrates fundamental or advanced digital design concepts such a
 ## 📁Project structures
 - LED Counter with Xilinx Clock IP
 - SRAM Read/Write Controller
-- Test Pattern Generator for Display
 
 
 ## 🛠Development Environment
